@@ -207,3 +207,41 @@ ul{
 .timeline-heading h4{
     color:#608668;
 }
+
+/* DIPLOMES */ 
+
+#education .heading h2{
+    color:#608668;
+    margin: 15px 0px;
+}
+
+.education-block{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+    background: #e9ecef;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.education-block h5{
+    color:#888;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.education-block span{
+    font-size: 35px;
+}
+
+.education-block h3{
+    color: #608668;
+    margin: 15px 0px;
+}
+
+.education-block h4{
+    margin-bottom: 20px;
+    font-weight: normal;
+}
