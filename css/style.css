@@ -40,6 +40,30 @@ ul{
     list-style: none;
 }
 
+
+/* NAVBAR */
+.navbar{
+    background-color: #608668;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-bottom: 1px solid #fff;
+}
+
+.navbar-nav{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.nav-link{
+    color: #fff;
+    margin:0 6px;
+}
+
+.nav-link.active, .nav-link:hover{
+    background-color: #fff;
+    color: #608668 !important;
+}
 /*ABOUT*/
 #about{
     background-color: #608668;
@@ -243,5 +267,54 @@ ul{
 
 .education-block h4{
     margin-bottom: 20px;
+    font-weight: normal;
+}
+
+/* PORTFOLIO */
+
+#portfolio{
+    background-color: #608668;
+}
+
+#portfolio .heading h2{
+    color: #fff;
+}
+
+#portfolio img{
+    width: 100%;
+    height: 100%;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+
+#portfolio img:hover{
+    filter: none;
+    -webkit-filter:none;
+}
+
+#portfolio .col-md-4{
+    margin-bottom: 20px;
+}
+
+/* FOOTER*/
+
+footer{
+    background-color: #333;
+    padding: 20px 0 40px;
+}
+
+footer span{
+    color: #608668;
+    font-size: 30px;
+    line-height: 35px;
+}
+
+footer span:hover{
+    color: #608668;
+    font-size: 35px;
+}
+
+footer h5{
+    color: #fff;
     font-weight: normal;
 }

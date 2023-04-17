@@ -14,6 +14,24 @@
 </head>
 <body>
 
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#about">A propos de moi</a>
+                    <a class="nav-link" href="#skills">Compétences</a>
+                    <a class="nav-link" href="#experience">Expériences</a>
+                    <a class="nav-link" href="#education">Diplômes</a>
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                </div>
+            </div>
+        </div>
+      </nav>
+       
     <section id="about" class="container-fluid" >
         <div class="col-8 col-lg-4 profile-picture">
             <img src="images/profile picture.jpg" class="rounded-circle" alt="ma photo de profil">
@@ -76,7 +94,7 @@
         <div class="container">
             <div class="divider white"></div>
             <div class="heading">
-                <h2>Expériences professionnelles</h2>
+                <h2>Expériences</h2>
             </div>
             <ul class="timeline">
                 <li>
@@ -206,12 +224,10 @@
                         <h5>2022</h5>
                         <span class="bi-award-fill"></span>
                         <h3>AFPA - Roubaix</h3>
-                        <h4> Titre Professionnel de Développeur Web / Web Mobile</h4>
+                        <h4> Titre Professionnel de Développeur Web</h4>
                         <div class="divider"></div>
-                        <p>Front End : HTML, CSS, Javascript</p>
+                        <p>HTML, CSS, Javascript, PHP, Symfony, SQL, Oracle</p>
                         <p>Responsive Design (Bootstrap)</p>
-                        <p>Back-End : PHP, Framework Sympfony</p>
-                        <p>Base de données : My SQL, Oracle</p>
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -219,13 +235,62 @@
                         <h5>2002-2004</h5>
                         <span class="bi-award-fill"></span>
                         <h3>SIADEP - Lens</h3>
-                        <h4> BTS Action Commerciale en Alternance</h4>
+                        <h4> BTS Action Commerciale</h4>
                         <div class="divider"></div>
-                        <p>Etudes de cas</p>
-                        <p>...</p>
+                        <p>Gestion Commerciale</p>
+                        <p>Alternance</p>
                     </div>
                 </div>
             </div>
     </section>
+
+    <section id="portfolio">
+        <div class="container">
+            <div class="divider white"></div>
+            <div class="heading">
+                <h2>Portfolio</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <a href="https://facebook.com" target="blank">
+                        <img src="images/facebook_share.png" class="img-thumbnail" alt="facebook share">
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="https://google.com" target="blank">
+                        <img src="images/google_translate.png" class="img-thumbnail" alt="google translate">
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="https://twitter.com" target="blank">
+                        <img src="images/twitter_video.png" class="img-thumbnail" alt="twitter video">
+                    </a>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <a href="https://youtube.com" target="blank">
+                        <img src="images/youtube.png" class="img-thumbnail" alt="youtube">
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="https://twitter.com" target="blank">
+                        <img src="images/twitter_retweet.png" class="img-thumbnail" alt="twitter retweet">
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="https://facebook.com" target="blank">
+                        <img src="images/facebook_video.png" class="img-thumbnail" alt="facebook video">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-center">
+        <a href="#about"><span class="bi-chevron-up"></span></a>
+        <h5>© APPRENDRE-A-CODER.COM </h5>
+    </footer>
 </body>
 </html>
